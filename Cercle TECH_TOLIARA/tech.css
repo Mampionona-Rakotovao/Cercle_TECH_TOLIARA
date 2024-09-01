@@ -1,0 +1,320 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.un{
+    width: 50%;
+    height: auto;
+}
+.liste{
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.post{
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+}
+.liste a{
+    color: gray;
+    text-decoration: none;
+}
+.deux{
+    width: 30%;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.btn_sign{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    border: solid greenyellow 1px;
+}
+
+.btn_get{
+    width: 150px;
+    height: 40px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    border: transparent;
+}
+
+.first{
+    height: auto;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.iaby_win{
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.win{
+    font-size: 70px;
+    font-weight: 500;
+    color: greenyellow;
+}
+.with{
+    font-size: 65px;
+    font-weight: 500;
+    color: white;
+}
+.lettre{
+    color: gray;
+}
+.search{
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    width: 450px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 20px;
+}
+.input1{
+    background-color: transparent;
+    border: 0cap;
+    color: white;
+}
+
+.start{
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: greenyellow;
+    color: black;
+    width: 100px;
+    height: 29px;
+}
+.start:hover{
+    background-color: #222429;
+    color: greenyellow;
+}
+.iaby_ambany{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , 400px);
+    justify-content: center;
+    gap: 25px;
+    padding-top: 30px;
+}
+.a1{
+    color: gray;
+    background-color: #222429;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+
+.span{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.s2{
+    background-color: greenyellow;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.fast{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.submit{
+    font-size: 40px;
+}
+.ter{
+    font-size: 5em;
+}
+.activo{
+    width: 95%;
+    display: flex;
+    height: 60vh;
+    padding: 0px 20px 0px 20px;
+}
+.sary{
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.s3{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+.tm{
+    color: white;
+    font-size: 60px;
+}
+.job{
+    color: gray;
+}
+.but{
+    width: 200px;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid greenyellow;
+    color: white;
+    font-weight: 400;
+}
+.but:hover{
+    color: black;
+    background-color: greenyellow;
+}
+.iaby_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , 400px);
+    gap: 15px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.tt{
+    color: white;
+    font-weight: 500;
+}
+.grid{
+    background-color: #222429;
+    color: gray;
+    border-radius: 10px;
+    padding-top: 15px;
+    text-align: start;
+    padding-left: 5px;
+}
+.s4{
+    background-color: greenyellow;
+    height: auto;
+    padding-bottom: 30px;
+}
+.er{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , 600px);
+
+}
+.er1{
+    text-align: center;
+    height: 40%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.er2{
+    height: 50%;
+     overflow: inherit; 
+     margin-left: 50px;
+    display: block;
+    justify-content: center;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+.er21{
+    display: block;
+    width: 60%;
+    height: auto;
+}
+.pa1{
+    font-size: 2em;
+}
+.try{
+    background-color: transparent;
+    color: black;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+}
+.try:hover{
+    background-color: #222429;
+    color: greenyellow;
+}
+.s5{
+    background-color: black;
+    height: auto;
+    width: 100%;
+}
+.design{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , 500px);
+    gap: 70px;
+}
+.design1{
+    color: white;
+    text-align: center;
+    padding-left: 30px;
+}
+.free{
+    font-size: 2.5em;
+    padding-top: 15px;
+}
+.bout{
+    background-color: transparent;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border: solid 1px greenyellow;
+    border-radius: 5px;
+}
+.bout:hover{
+    color: black;
+    background-color: greenyellow;
+}
+.frou{
+    width: 40%;
+    height: 60%;
+}
+.imge{
+    width: 90%;
+    height: 90%;
+    padding-left: 50px;
+}
+
+footer{
+    background-color: greenyellow;
+    height: auto;
+    color: black;
+}
+.next{
+    text-align: center;
+}
+.nxt{
+    font-size: 3em;
+    padding-top: 15px;
+}
+.for{
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    border: solid 2px black;
+    border-radius: 5px;
+    font-weight: 2em;
+}
+.for:hover{
+    background-color: #222429;
+    color: greenyellow;
+}
+.prec{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
+    gap: 20px;
+    padding-left: 80px;
+}
+
